@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+#taskManager {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#searchBox {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.task {
+    background-color: #007bff;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.task:nth-child(odd) {
+    background-color: #006fcd;
+}
+
+.task:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: #ff4757;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #ff6b81;
+}
+
+#addTaskBtn {
+    background-color: #28a745;
+}
+
+#addTaskBtn:hover {
+    background-color: #3cb371;
+}
